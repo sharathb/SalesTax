@@ -1,0 +1,7 @@
+Invoice for Order:Order2(2)
+ProductName|	ProductType|	Imported|	ShelfPrice|	NetPrice
+----------------------------------------------------------------
+Choclates		|	Food		|	true		|	10.00		|	10.50|
+Perfume		|	Accessories		|	true		|	47.50		|	54.50|
+----------------------------------------------------------------
+Total Tax : 7.5	Order Price : 65.00

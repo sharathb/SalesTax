@@ -1,0 +1,21 @@
+*******************************************************
+======================== README =======================
+*******************************************************
+
+1. Sample project created.
+
+2. For any changes, modification or comments please contact me (sharath.bhaskara@gmail.com)
+
+Requirement:
+Simple Salestax calculation project.
+
+Salextax will be calculated at a rate of 10% for all products except Books,Medicines and Food.
+ImportTax will be calculated at a rate of 5% for all products without any exceptions.
+
+The tax calculated will be rounded or to nearest 0.05 and added to the product price.
+
+Solution:
+
+Considerations : Every Order will have a list of products, for which the sales tax will be calculated.
+
+********************************************************

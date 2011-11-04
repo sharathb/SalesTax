@@ -1,0 +1,8 @@
+Invoice for Order:Order1(1)
+ProductName|	ProductType|	Imported|	ShelfPrice|	NetPrice
+----------------------------------------------------------------
+Book		|	Books		|	false		|	12.49		|	12.49|
+CD		|	Music		|	false		|	14.99		|	16.49|
+Choclate		|	Food		|	false		|	0.85		|	0.85|
+----------------------------------------------------------------
+Total Tax : 1.5	Order Price : 29.83

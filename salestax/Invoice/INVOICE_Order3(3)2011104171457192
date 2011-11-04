@@ -1,0 +1,9 @@
+Invoice for Order:Order3(3)
+ProductName|	ProductType|	Imported|	ShelfPrice|	NetPrice
+----------------------------------------------------------------
+Perfume		|	Accessories		|	true		|	27.99		|	32.19|
+Perfume		|	Accessories		|	false		|	18.99		|	20.89|
+HeadachePills		|	Medical		|	false		|	9.75		|	9.75|
+Choclates		|	Food		|	true		|	11.25		|	11.80|
+----------------------------------------------------------------
+Total Tax : 6.65	Order Price : 74.63

@@ -1,0 +1,246 @@
+[ERROR] 2011-11-04 17:13:33,357  {org.sample.salestax.OrderProcessor}
+Unable to process order in file : Order1.txt
+
+[ERROR] 2011-11-04 17:13:33,357  {org.sample.salestax.OrderProcessor}
+Unable to process order in file : Order2.txt
+
+[ERROR] 2011-11-04 17:13:33,357  {org.sample.salestax.OrderProcessor}
+Unable to process order in file : Order3.txt
+
+[INFO ] 2011-11-04 17:13:33,357  {org.sample.salestax.OrderProcessor}
+Count of orders obtained from the files : 4
+
+[DEBUG] 2011-11-04 17:13:33,357  {org.sample.salestax.OrderProcessor}
+Count of Orders processed : 0
+
+[INFO ] 2011-11-04 17:13:33,373  {org.sample.salestax.OrderProcessor}
+Generating the Invoice for the orders
+
+[DEBUG] 2011-11-04 17:13:33,373  {org.sample.salestax.OrderProcessor}
+Invoice generation complete
+
+[INFO ] 2011-11-04 17:14:57,145  {org.sample.salestax.OrderProcessor}
+Count of orders obtained from the files : 4
+
+[INFO ] 2011-11-04 17:14:57,145  {org.sample.salestax.OrderProcessor}
+Processing Order Order:Order1(1)
+
+[INFO ] 2011-11-04 17:14:57,145  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Book(Books) is :
+
+[INFO ] 2011-11-04 17:14:57,145  {org.sample.salestax.calculator.SalestaxCalculator}
+Reason for exemption of product Product : Book(Books) is Exempted from sales tax, as per Education Policy
+
+[INFO ] 2011-11-04 17:14:57,145  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Book(Books) is exempted from salesTax.
+
+[INFO ] 2011-11-04 17:14:57,145  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Book(Books) is not imported, so no tax will be levied
+
+[DEBUG] 2011-11-04 17:14:57,145  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 0
+
+[DEBUG] 2011-11-04 17:14:57,145  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 0
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : CD(Music) is :
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which sales tax has to be calculated. 14.99
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Sales Tax on product Product : CD(Music) is 1.499
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : CD(Music) is not imported, so no tax will be levied
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 1.499
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 1.5
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Choclate(Food) is :
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Reason for exemption of product Product : Choclate(Food) is Exempted from sales tax, as Basic Needs Policy
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Choclate(Food) is exempted from salesTax.
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Choclate(Food) is not imported, so no tax will be levied
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 0
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 0
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.product.Order}
+Total Tax on Order Order:Order1(1) is 1.5
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.product.Order}
+Total Cost of the Order Order:Order1(1) is 29.83
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.OrderProcessor}
+Processing Order Order:Order2(2)
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Choclates(Food) is :
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Reason for exemption of product Product : Choclates(Food) is Exempted from sales tax, as Basic Needs Policy
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Choclates(Food) is exempted from salesTax.
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which import tax has to be calculated. 10.00
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Import Tax on product Product : Choclates(Food) is 0.50
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 0.50
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 0.5
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Perfume(Accessories) is :
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which sales tax has to be calculated. 47.50
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Sales Tax on product Product : Perfume(Accessories) is 4.75
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which import tax has to be calculated. 47.50
+
+[INFO ] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Import Tax on product Product : Perfume(Accessories) is 2.375
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 7.125
+
+[DEBUG] 2011-11-04 17:14:57,161  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 7
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.product.Order}
+Total Tax on Order Order:Order2(2) is 7.5
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.product.Order}
+Total Cost of the Order Order:Order2(2) is 65.00
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.OrderProcessor}
+Processing Order Order:Order3(3)
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Perfume(Accessories) is :
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which sales tax has to be calculated. 27.99
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Sales Tax on product Product : Perfume(Accessories) is 2.799
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which import tax has to be calculated. 27.99
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Import Tax on product Product : Perfume(Accessories) is 1.3995
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 4.1985
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 4.2
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Perfume(Accessories) is :
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which sales tax has to be calculated. 18.99
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Sales Tax on product Product : Perfume(Accessories) is 1.899
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Perfume(Accessories) is not imported, so no tax will be levied
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 1.899
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 1.9
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : HeadachePills(Medical) is :
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Reason for exemption of product Product : HeadachePills(Medical) is Exempted from sales tax, as per Health Policy
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : HeadachePills(Medical) is exempted from salesTax.
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : HeadachePills(Medical) is not imported, so no tax will be levied
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 0
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 0
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Calculating tax for product Product : Choclates(Food) is :
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Reason for exemption of product Product : Choclates(Food) is Exempted from sales tax, as Basic Needs Policy
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Product Product : Choclates(Food) is exempted from salesTax.
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Price to which import tax has to be calculated. 11.25
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Import Tax on product Product : Choclates(Food) is 0.5625
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax before rounding off: 0.5625
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.calculator.SalestaxCalculator}
+Tax after rounding off: 0.55
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.product.Order}
+Total Tax on Order Order:Order3(3) is 6.65
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.product.Order}
+Total Cost of the Order Order:Order3(3) is 74.63
+
+[DEBUG] 2011-11-04 17:14:57,176  {org.sample.salestax.OrderProcessor}
+Count of Orders processed : 3
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.OrderProcessor}
+Generating the Invoice for the orders
+
+[INFO ] 2011-11-04 17:14:57,176  {org.sample.salestax.invoice.InvoiceGenerator}
+Creating invoice for the order Order:Order1(1)
+
+[INFO ] 2011-11-04 17:14:57,192  {org.sample.salestax.invoice.InvoiceGenerator}
+Invoice Directory does not exist hence creating one
+
+[INFO ] 2011-11-04 17:14:57,192  {org.sample.salestax.invoice.InvoiceGenerator}
+Creating invoice for the order Order:Order2(2)
+
+[INFO ] 2011-11-04 17:14:57,192  {org.sample.salestax.invoice.InvoiceGenerator}
+Creating invoice for the order Order:Order3(3)
+
+[DEBUG] 2011-11-04 17:14:57,192  {org.sample.salestax.OrderProcessor}
+Invoice generation complete
+
