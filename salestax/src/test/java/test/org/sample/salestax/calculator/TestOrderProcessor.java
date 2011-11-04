@@ -18,7 +18,7 @@ public class TestOrderProcessor {
 		processor = new OrderProcessor();
 		orders = processor.createOrdersFromFiles(new String[] {
 				FileSystems.getDefault().getPath("Orders").toString(),
-				"Order3.txt" });
+				"Order1.txt", "Order2.txt", "Order3.txt" });
 		processedOrders = processor.processOrders(orders);
 		processor.generateInvoice(processedOrders);
 	}
